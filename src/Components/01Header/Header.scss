@@ -1,0 +1,109 @@
+@import "../../Variables.scss";
+@import url("https://fonts.googleapis.com/css2?family=Philosopher:ital@1&display=swap");
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 1rem 4rem;
+  z-index: 1000;
+
+  &.active {
+    background: var(--background-color);
+    // box-shadow: $box-shadow;
+  }
+
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .logo {
+      margin-right: auto;
+      font-size: 2rem;
+      font-weight: bolder;
+      color: var(--color);
+
+      .letters {
+        font-family: "Philosopher", sans-serif;
+        font-size: 2.85rem;
+      }
+    }
+
+    .link-btn {
+      display: flex;
+      align-items: center;
+
+      .nav-close {
+        display: none;
+      }
+
+      .links {
+        list-style: none;
+        display: flex;
+        gap: 2rem;
+        padding-right: 2rem;
+        font-size: 1.3rem;
+        cursor: pointer;
+        color: var(--color);
+
+        li {
+          &:hover {
+            color: $brown;
+          }
+        }
+      }
+    }
+  }
+
+  .menu-btn {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    .menu-btn {
+      display: inline-block;
+      font-size: 2.5rem;
+      margin-left: 2rem;
+      cursor: pointer;
+      color: var(--color);
+      &:hover {
+        color: $brown;
+      }
+    }
+
+    .link-btn {
+      .links {
+        position: fixed;
+        top: 0;
+        left: -110%;
+        background: var(--background-color);
+        z-index: 10000;
+        width: 25rem;
+        height: 100%;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+
+        &.active {
+          left: 0;
+          // box-shadow: 0 0 0 100vw $blur;
+        }
+        .nav-close {
+          display: block;
+          position: absolute;
+          top: 0.8rem;
+          right: 2rem;
+          z-index: 100;
+          font-size: 3rem;
+          cursor: pointer;
+          color: var(--color);
+        }
+      }
+    }
+  }
+}
