@@ -3,15 +3,18 @@
 
 .header {
   position: fixed;
+  // width: 100vw;
+  // height: 10vh;
   top: 0;
   left: 0;
   right: 0;
   padding: 1rem 4rem;
   z-index: 1000;
+  background-color: var(--bg-clr);
 
   &.active {
-    background: var(--background-color);
-    // box-shadow: $box-shadow;
+    background: var(--bg-clr);
+    box-shadow: $box-shadow;
   }
 
   .navbar {
@@ -23,7 +26,11 @@
       margin-right: auto;
       font-size: 2rem;
       font-weight: bolder;
-      color: var(--color);
+      color: var(--clr);
+
+      // &:hover {
+      //   color: $brown2;
+      // }
 
       .letters {
         font-family: "Philosopher", sans-serif;
@@ -46,7 +53,7 @@
         padding-right: 2rem;
         font-size: 1.3rem;
         cursor: pointer;
-        color: var(--color);
+        color: var(--clr);
 
         li {
           &:hover {
@@ -69,7 +76,7 @@
       font-size: 2.5rem;
       margin-left: 2rem;
       cursor: pointer;
-      color: var(--color);
+      color: var(--clr);
       &:hover {
         color: $brown;
       }
@@ -80,7 +87,7 @@
         position: fixed;
         top: 0;
         left: -110%;
-        background: var(--background-color);
+        background: var(--bg-clr);
         z-index: 10000;
         width: 25rem;
         height: 100%;
@@ -101,7 +108,7 @@
           z-index: 100;
           font-size: 3rem;
           cursor: pointer;
-          color: var(--color);
+          color: var(--clr);
         }
       }
     }

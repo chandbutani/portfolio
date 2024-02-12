@@ -10,25 +10,25 @@
   outline: none;
   border: none;
   text-decoration: none;
-  text-transform: capitalize;
-  transition: 0.2s linear;
+  // text-transform: capitalize;
+  // transition: 0.2s linear;
 }
 
 body {
   font-size: 62.5%;
-  padding: 1rem 2rem;
+  // padding: 1rem 2rem;
   overflow-x: hidden;
   scroll-behavior: smooth;
   // scroll-padding-top: 5rem;
-  background-color: var(--background-color);
+  background-color: var(--bg-clr);
 }
 
 .light {
-  --background-color: #eeefe1;
-  --color: #07161b;
+  --bg-clr: #eeefe1;
+  --clr: #07161b;
 }
 
 .dark {
-  --background-color: #07161b;
-  --color: #eeefe1;
+  --bg-clr: #07161b;
+  --clr: #eeefe1;
 }

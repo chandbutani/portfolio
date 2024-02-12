@@ -1,12 +1,12 @@
 import "./App.scss";
 import Header from "./Components/01Header/Header";
-// import { BsFillSunFill } from "react-icons/bs";
+import Profile from "./Components/02Profile/Profile";
 
 function App() {
   return (
     <>
       <Header />
-      {/* <BsFillSunFill className="xyz" /> */}
+      <Profile />
     </>
   );
 }

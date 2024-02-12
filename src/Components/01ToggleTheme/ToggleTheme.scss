@@ -4,7 +4,11 @@
   display: flex;
   font-size: 1.4rem;
   cursor: pointer;
-  color: var(--color);
-  background-color: var(--background-color);
-  // transition: 0.5s ease-in-out;
+  color: var(--clr);
+  background-color: var(--bg-clr);
+  transition: all 0.5s ease-in-out;
+
+  &:hover {
+    color: $brown2;
+  }
 }
