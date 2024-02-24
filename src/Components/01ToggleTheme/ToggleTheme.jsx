@@ -20,9 +20,9 @@ const ToggleTheme = () => {
     <>
       <button onClick={toggleTheme}>
         {theme === "light" ? (
-          <BsFillMoonStarsFill className="icon" />
+          <BsFillMoonStarsFill className="tog-icon" />
         ) : (
-          <BsFillSunFill className="icon" />
+          <BsFillSunFill className="tog-icon" />
         )}
       </button>
     </>

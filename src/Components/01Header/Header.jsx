@@ -29,15 +29,15 @@ const Header = () => {
           </div>
           <div className="link-btn">
             <ul className={`links ${isActive ? "active" : ""}`}>
-              {isActive && (
+              {isActive ? (
                 <div className="nav-close" onClick={toggleMenu}>
                   <IoCloseCircleOutline />
                 </div>
-              )}
+              ) : null}
 
-              <li>About</li>
-              <li>Project</li>
-              <li>Contact</li>
+              <li onClick={() => setActive(false)}>About</li>
+              <li onClick={() => setActive(false)}>Project</li>
+              <li onClick={() => setActive(false)}>Contact</li>
             </ul>
             <div className="icons">
               <div className="menu-btn" onClick={toggleMenu}>

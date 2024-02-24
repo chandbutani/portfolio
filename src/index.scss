@@ -11,14 +11,20 @@
   border: none;
   text-decoration: none;
   // text-transform: capitalize;
-  // transition: 0.2s linear;
+  transition: 0.4s linear;
+}
+
+html {
+  // font-size: 62.5%;
+  font-size: 100%;
 }
 
 body {
-  font-size: 62.5%;
   // padding: 1rem 2rem;
   overflow-x: hidden;
   scroll-behavior: smooth;
+  // margin-top: 8.56rem;
+  margin-top: 5.35rem;
   // scroll-padding-top: 5rem;
   background-color: var(--bg-clr);
 }
@@ -31,4 +37,16 @@ body {
 .dark {
   --bg-clr: #07161b;
   --clr: #eeefe1;
+}
+
+@media (max-width: 991px) {
+  html {
+    // font-size: 55%;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    // font-size: 50%;
+  }
 }

@@ -3,8 +3,8 @@
 
 .header {
   position: fixed;
-  // width: 100vw;
-  // height: 10vh;
+  width: 100vw;
+  height: 10vh;
   top: 0;
   left: 0;
   right: 0;
@@ -60,6 +60,12 @@
             color: $brown;
           }
         }
+      }
+      .icons {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        // justify-content: center;
       }
     }
   }

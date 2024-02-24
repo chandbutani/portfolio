@@ -1,10 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300&display=swap");
 @import "../../Variables.scss";
-@import url("https://fonts.googleapis.com/css2?family=Philosopher:ital@1&display=swap");
 
 .profile {
   font-family: "Inconsolata", monospace;
-  margin-top: 5.35rem;
+  // margin-top: 5.35rem;
   height: 70vh;
   width: 100vw;
   background: url("../.././Assets/images/bgImage.jpg") no-repeat center;
@@ -19,7 +18,6 @@
 
     .glass {
       background: rgba(172, 212, 222, 0.15);
-      //   background: rgb(7, 22, 27, 0.15);
       border: $border;
       border-radius: 0.5rem;
       padding: 1.7rem 3rem;
@@ -30,7 +28,7 @@
         font-size: 3rem;
       }
       .name {
-        font-family: "Philosopher", sans-serif;
+        font-family: $font-family;
         font-size: 4rem;
         font-weight: 700;
       }

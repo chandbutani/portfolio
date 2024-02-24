@@ -1,0 +1,30 @@
+@import "../../Variables.scss";
+
+.about {
+  height: 60vh;
+  width: 100vw;
+  padding: 1rem 10rem;
+  color: var(--clr);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .headingAbout {
+    font-family: $font-family;
+    font-size: 4rem;
+    font-weight: 700;
+    display: block;
+    color: $brown;
+  }
+  .aboutMe {
+    padding-top: 2rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-indent: 8rem;
+    text-align: justify;
+
+    span {
+      color: $brown;
+    }
+  }
+}
