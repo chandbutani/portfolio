@@ -11,13 +11,16 @@ $brown2: #c79373;
 @import url("https://fonts.googleapis.com/css2?family=Philosopher:ital@1&display=swap");
 $font-family: "Philosopher", sans-serif;
 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;1,100;1,300&display=swap");
+$font-family2: "Poppins", sans-serif;
+
 .compoWrap {
-  font-family: $font-family;
+  // font-family: $font-family;
   margin: 3rem 10rem;
   color: var(--clr);
   display: flex;
   flex-direction: column;
-  gap: 3rem;
+  gap: 2rem;
 }
 
 .heading {

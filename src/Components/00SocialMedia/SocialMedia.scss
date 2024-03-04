@@ -1,0 +1,19 @@
+@import "../../Variables.scss";
+
+.mediaLogo {
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  font-size: 1.5rem;
+  justify-content: center;
+  padding-bottom: 0;
+
+  a {
+    text-decoration: none;
+    color: $blueBlack;
+    &:hover {
+      color: $white;
+    }
+  }
+}

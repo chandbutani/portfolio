@@ -1,9 +1,11 @@
 import "./App.scss";
+
 import Header from "./Components/01Header/Header";
 import Profile from "./Components/02Profile/Profile";
 import About from "./Components/03About/About";
 import Skills from "./Components/04Skills/Skills";
 import Projects from "./Components/05MyProjects/Projects";
+import Contact from "./Components/06Contact/Contact";
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
       <About />
       <Skills />
       <Projects />
+      <Contact />
     </div>
   );
 }

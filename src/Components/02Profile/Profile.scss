@@ -2,7 +2,7 @@
 @import "../../Variables.scss";
 
 .profile {
-  font-family: "Inconsolata", monospace;
+  // font-family: "Inconsolata", monospace;
   // margin-top: 5.35rem;
   height: 70vh;
   width: 100vw;
@@ -36,24 +36,6 @@
         font-size: 1.5rem;
         font-weight: 400;
         padding-top: 1rem;
-      }
-
-      .mediaLogo {
-        padding-top: 1rem;
-        display: flex;
-        flex-direction: row;
-        gap: 1rem;
-        font-size: 1.5rem;
-        justify-content: center;
-        padding-bottom: 0;
-
-        a {
-          text-decoration: none;
-          color: $blueBlack;
-          &:hover {
-            color: $white;
-          }
-        }
       }
     }
   }

@@ -1,9 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;1,100;1,300&display=swap");
-
 @import "./Variables.scss";
 
 * {
-  font-family: "Poppins", sans-serif;
+  font-family: $font-family2;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -24,7 +22,7 @@ body {
   overflow-x: hidden;
   scroll-behavior: smooth;
   // margin-top: 8.56rem;
-  margin-top: 5.35rem;
+  margin-top: 5.35rem; // hight 85.6 px
   // scroll-padding-top: 5rem;
   background-color: var(--bg-clr);
 }
