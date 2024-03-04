@@ -10,3 +10,20 @@ $brown2: #c79373;
 
 @import url("https://fonts.googleapis.com/css2?family=Philosopher:ital@1&display=swap");
 $font-family: "Philosopher", sans-serif;
+
+.compoWrap {
+  font-family: $font-family;
+  margin: 3rem 10rem;
+  color: var(--clr);
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.heading {
+  font-family: $font-family;
+  font-size: 4rem;
+  font-weight: 700;
+  display: block;
+  color: $brown;
+}

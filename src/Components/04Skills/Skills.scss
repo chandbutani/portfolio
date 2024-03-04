@@ -1,79 +1,42 @@
 @import "../../Variables.scss";
 
-.skillWrap {
-  font-family: $font-family;
-  //   height: 70vh;
-  //   width: 80vw;
-  margin: 1rem 10rem;
-  color: var(--clr);
+.cardWrap {
   display: flex;
-  flex-direction: column;
-  gap: 3rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4rem;
+  text-align: center;
 
-  // .skillField {
-  //   border: 0.4rem solid var(--clr);
-  //   border-radius: 1rem;
-  //   padding: 3rem;
-  //   text-align: center;
+  .card {
+    .cardField {
+      border: 0.1rem solid var(--clr);
+      border-radius: 1rem;
+      padding: 1rem;
+      text-align: center;
+      background-color: var(--bg-clr);
+      color: var(--clr);
 
-  //   .skillLable {
-  //     font-family: $font-family;
-  //     padding: 0 3rem;
-  //     font-size: 4rem;
-  //     font-weight: 700;
-  //     display: block;
-  //     color: $brown;
-  //   }
-  // }
-
-  .headingSkill {
-    font-family: $font-family;
-    font-size: 4rem;
-    font-weight: 700;
-    display: block;
-    color: $brown;
-    // text-align: left;
-  }
-
-  .cardWrap {
-    display: flex;
-    // flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-    gap: 5rem;
-    text-align: center;
-
-    .card {
-      .cardField {
-        border: 0.1rem solid var(--clr);
-        border-radius: 1rem;
-        padding: 1rem;
-        text-align: center;
-        background-color: var(--bg-clr);
-        color: var(--clr);
-
-        &:hover {
-          background-color: var(--clr);
-          color: var(--bg-clr);
-          border: 0.1rem solid var(--bg-clr);
-        }
-
-        .cardLable {
-          font-family: $font-family;
-          padding: 0 0.5rem;
-          font-size: 1.5rem;
-          font-weight: 500;
-          display: block;
-          color: $brown;
-        }
+      &:hover {
+        background-color: var(--clr);
+        color: var(--bg-clr);
+        border: 0.1rem solid var(--bg-clr);
       }
-      img {
-        width: 10rem;
-        height: 10rem;
-        object-fit: contain;
-        padding: 1rem;
+
+      .cardLable {
+        font-family: $font-family;
+        padding: 0 0.5rem;
+        font-size: 1.5rem;
+        font-weight: 500;
+        display: block;
+        color: $brown;
       }
+    }
+    img {
+      width: 10rem;
+      height: 10rem;
+      object-fit: contain;
+      padding: 1rem;
     }
   }
 }

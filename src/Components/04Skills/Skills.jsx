@@ -1,13 +1,13 @@
 import React from "react";
 import "./Skills.scss";
-import html from "../../Assets/images/1HTML.png";
-import css from "../../Assets/images/2CSS.png";
-import js from "../../Assets/images/3JS.png";
-import jquery from "../../Assets/images/4JQuery.png";
-import reactLogo from "../../Assets/images/5React.png";
-import scss from "../../Assets/images/6Sass.png";
-import mui from "../../Assets/images/7MUI.png";
-import github from "../../Assets/images/8Github.png";
+import html from "../../Assets/images/S1HTML.png";
+import css from "../../Assets/images/S2CSS.png";
+import js from "../../Assets/images/S3JS.png";
+import jquery from "../../Assets/images/S4JQuery.png";
+import reactLogo from "../../Assets/images/S5React.png";
+import scss from "../../Assets/images/S6Sass.png";
+import mui from "../../Assets/images/S7MUI.png";
+import github from "../../Assets/images/S8Github.png";
 
 const Skills = () => {
   const mySkills = [
@@ -54,10 +54,9 @@ const Skills = () => {
   ];
   return (
     <>
-      <div className="skillWrap">
-        <div className="headingSkill">My Skills</div>
-        {/* <fieldset className="skillField">
-          <legend className="skillLable">My Skills</legend> */}
+      <div className="compoWrap">
+        <div className="heading">My Skills</div>
+
         <div className="cardWrap">
           {mySkills.map(({ id, logo, label }) => (
             <div className="card" key={id}>
@@ -68,7 +67,6 @@ const Skills = () => {
             </div>
           ))}
         </div>
-        {/* </fieldset> */}
       </div>
     </>
   );
