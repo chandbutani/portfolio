@@ -41,7 +41,9 @@ const Projects = () => {
   return (
     <>
       <div className="compoWrap">
-        <div className="heading">Projects</div>
+        <fieldset className="comFieldset">
+          <legend className="heading">Projects</legend>
+        </fieldset>
         {myProjects.map((value, i) => (
           <div className="projectWrap">
             <div className="pimg">

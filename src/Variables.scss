@@ -21,6 +21,11 @@ $font-family2: "Poppins", sans-serif;
   display: flex;
   flex-direction: column;
   gap: 2rem;
+
+  .comFieldset {
+    border-top: 0.1rem solid $brown;
+    // border-top: 0.2rem solid var(--clr);
+  }
 }
 
 .heading {
@@ -29,4 +34,5 @@ $font-family2: "Poppins", sans-serif;
   font-weight: 700;
   display: block;
   color: $brown;
+  padding-right: 2rem;
 }

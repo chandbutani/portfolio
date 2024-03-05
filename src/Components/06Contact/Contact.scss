@@ -1,0 +1,36 @@
+@import "../../Variables.scss";
+
+.textWrap {
+  text-align: center;
+  line-height: 4rem;
+  p {
+    font-family: $font-family;
+  }
+
+  .p1 {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
+  .p2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+}
+
+.socialWrap {
+  border: 0.2rem solid var(--clr);
+  border-radius: 0.5rem;
+}
+
+.fieldSet {
+  border-top: 0.2rem solid var(--clr);
+
+  a {
+    color: var(--clr);
+
+    &:hover {
+      color: $brown;
+    }
+  }
+}

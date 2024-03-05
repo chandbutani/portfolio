@@ -1,13 +1,12 @@
 @import "../../Variables.scss";
 
 .mediaLogo {
-  padding-top: 1rem;
   display: flex;
   flex-direction: row;
   gap: 1rem;
   font-size: 1.5rem;
   justify-content: center;
-  padding-bottom: 0;
+  padding: 1rem 2rem 0.5rem 2rem;
 
   a {
     text-decoration: none;

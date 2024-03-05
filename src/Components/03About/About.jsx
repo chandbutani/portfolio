@@ -5,7 +5,9 @@ function About() {
   return (
     <>
       <div className="compoWrap">
-        <div className="heading">About Me...</div>
+        <fieldset className="comFieldset">
+          <legend className="heading">About Me...</legend>
+        </fieldset>
         <p className="aboutMe">
           Hello, I'am Chand Butani. A Passionate
           <span>

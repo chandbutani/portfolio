@@ -55,8 +55,9 @@ const Skills = () => {
   return (
     <>
       <div className="compoWrap">
-        <div className="heading">My Skills</div>
-
+        <fieldset className="comFieldset">
+          <legend className="heading">My Skills...</legend>
+        </fieldset>
         <div className="cardWrap">
           {mySkills.map(({ id, logo, label }) => (
             <div className="card" key={id}>

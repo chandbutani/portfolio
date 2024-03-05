@@ -1,9 +1,6 @@
 import React from "react";
 import "./Profile.scss";
 import SocialMedia from "../00SocialMedia/SocialMedia";
-// import { SiGmail } from "react-icons/si";
-// import { FaGithub } from "react-icons/fa";
-// import { IoLogoLinkedin } from "react-icons/io5";
 
 const Profile = () => {
   return (
