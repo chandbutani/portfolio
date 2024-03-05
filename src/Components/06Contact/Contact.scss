@@ -8,8 +8,8 @@
   }
 
   .p1 {
-    font-size: 2rem;
-    font-weight: 600;
+    font-size: 2.2rem;
+    font-weight: 500;
   }
 
   .p2 {
@@ -18,13 +18,8 @@
   }
 }
 
-.socialWrap {
-  border: 0.2rem solid var(--clr);
-  border-radius: 0.5rem;
-}
-
 .fieldSet {
-  border-top: 0.2rem solid var(--clr);
+  border-top: 0.15rem solid $brown;
 
   a {
     color: var(--clr);

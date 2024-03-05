@@ -16,7 +16,7 @@ $font-family2: "Poppins", sans-serif;
 
 .compoWrap {
   // font-family: $font-family;
-  margin: 3rem 10rem;
+  margin: 3rem 8rem;
   color: var(--clr);
   display: flex;
   flex-direction: column;
@@ -24,15 +24,13 @@ $font-family2: "Poppins", sans-serif;
 
   .comFieldset {
     border-top: 0.1rem solid $brown;
-    // border-top: 0.2rem solid var(--clr);
+    .heading {
+      font-family: $font-family;
+      font-size: 3rem;
+      font-weight: 700;
+      display: block;
+      color: $brown;
+      padding-right: 2rem;
+    }
   }
-}
-
-.heading {
-  font-family: $font-family;
-  font-size: 4rem;
-  font-weight: 700;
-  display: block;
-  color: $brown;
-  padding-right: 2rem;
 }

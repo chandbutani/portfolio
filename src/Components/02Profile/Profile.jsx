@@ -8,7 +8,7 @@ const Profile = () => {
       <div className="profile">
         <div className="intro">
           <div className="glass">
-            <span className="coder">{`<coder>`}</span>
+            <span className="coder">{`<coder/>`}</span>
             <div className="name">Chand Butani</div>
             <div className="frontEnd">A Front-End Developer</div>
             <SocialMedia />

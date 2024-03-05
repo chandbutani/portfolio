@@ -1,20 +1,22 @@
-// @import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300&display=swap");
 @import "../../Variables.scss";
 
 .profile {
   // font-family: "Inconsolata", monospace;
   // margin-top: 5.35rem;
-  height: 70vh;
+  height: 65vh;
   width: 100vw;
   background: url("../.././Assets/images/bgImage.jpg") no-repeat center;
   background-size: cover;
 
   .intro {
-    padding-top: 4rem;
-    padding-right: 40rem;
-    display: flex;
+    // padding-top: 4rem;
+    // padding-right: 40rem;
+    // display: flex;
     text-align: center;
-    flex-direction: column;
+    position: absolute;
+    top: 9.35rem;
+    left: 10rem;
 
     .glass {
       background: rgba(172, 212, 222, 0.15);
@@ -26,6 +28,8 @@
 
       .coder {
         font-size: 3rem;
+        font-family: "Inconsolata", monospace;
+        font-weight: 600;
       }
       .name {
         font-family: $font-family;

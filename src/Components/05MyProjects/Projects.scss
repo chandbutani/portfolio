@@ -5,17 +5,19 @@
   justify-content: flex-start;
   align-items: center;
   gap: 2rem;
-  height: 55vh;
+  height: 50vh;
   overflow: hidden;
   border: 0.1rem solid var(--clr);
   border-radius: 1rem;
   padding: 2rem;
-  margin: 0 2rem;
+  // margin: 0;
+  background-color: var(--clr);
+  color: var(--bg-clr);
 
   .pimg {
     img {
-      height: 18rem;
-      width: 30rem;
+      height: 17rem;
+      width: 25rem;
       object-fit: cover;
       border: 0.05rem solid var(--clr);
       border-radius: 0.5rem;
@@ -25,12 +27,12 @@
 
   .pData {
     text-align: justify;
-    line-height: 2.1rem;
+    line-height: 2rem;
 
     .pheading {
       font-family: $font-family;
-      font-size: 2rem;
-      line-height: 3rem;
+      font-size: 1.5rem;
+      line-height: 2rem;
       font-weight: 600;
       color: $brown;
     }
@@ -56,7 +58,7 @@
       padding-top: 0.5rem;
 
       .btn {
-        border: 0.1rem solid var(--clr);
+        border: 0.1rem solid var(--bg-clr);
         border-radius: 0.5rem;
         padding: 0.2rem 1rem;
         text-decoration: none;
@@ -64,11 +66,12 @@
         font-size: 1rem;
         font-family: $font-family;
         letter-spacing: 0.1rem;
-        color: var(--clr);
+        color: var(--bg-clr);
+        background-color: var(--clr);
 
         &:hover {
-          color: var(--bg-clr);
-          background-color: var(--clr);
+          color: var(--clr);
+          background-color: var(--bg-clr);
         }
       }
     }
