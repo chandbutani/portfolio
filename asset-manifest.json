@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.c1c514d6.css",
+    "main.js": "/portfolio/static/js/main.67a02f6f.js",
+    "static/media/P3MoonTravel SS.png": "/portfolio/static/media/P3MoonTravel SS.e4643752474523d0d245.png",
+    "static/media/P1Portfolio SS.png": "/portfolio/static/media/P1Portfolio SS.1d65b33b842e6c598e73.png",
+    "static/media/bgImage.jpg": "/portfolio/static/media/bgImage.79a2589fca644a463eb6.jpg",
+    "static/media/S8Github.png": "/portfolio/static/media/S8Github.dea49d48a3e47344edfe.png",
+    "static/media/P2ToDo App SS.png": "/portfolio/static/media/P2ToDo App SS.90707f5ceca01783528b.png",
+    "static/media/S5React.png": "/portfolio/static/media/S5React.20adfb35ae6a6e5817bf.png",
+    "static/media/S2CSS.png": "/portfolio/static/media/S2CSS.e989fcafdbf4c559076d.png",
+    "static/media/S6Sass.png": "/portfolio/static/media/S6Sass.051888ab516950ed48cb.png",
+    "static/media/S7MUI.png": "/portfolio/static/media/S7MUI.5b2d8a0a309d9f7d47c1.png",
+    "static/media/S4JQuery.png": "/portfolio/static/media/S4JQuery.4e57e42ed36ca1fe4999.png",
+    "index.html": "/portfolio/index.html",
+    "main.c1c514d6.css.map": "/portfolio/static/css/main.c1c514d6.css.map",
+    "main.67a02f6f.js.map": "/portfolio/static/js/main.67a02f6f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c1c514d6.css",
+    "static/js/main.67a02f6f.js"
+  ]
+}
