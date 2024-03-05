@@ -19,7 +19,7 @@ function App() {
         <Contact />
       </div>
       <div class="credit">
-        Created by <span id="name">Mr. Butanee</span>
+        Created by <span id="name">Mr. Butani</span>
       </div>
     </>
   );
