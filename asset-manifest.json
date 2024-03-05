@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c1c514d6.css",
-    "main.js": "/portfolio/static/js/main.67a02f6f.js",
+    "main.css": "/portfolio/static/css/main.7e23ca77.css",
+    "main.js": "/portfolio/static/js/main.accbe13f.js",
     "static/media/P3MoonTravel SS.png": "/portfolio/static/media/P3MoonTravel SS.e4643752474523d0d245.png",
     "static/media/P1Portfolio SS.png": "/portfolio/static/media/P1Portfolio SS.1d65b33b842e6c598e73.png",
     "static/media/bgImage.jpg": "/portfolio/static/media/bgImage.79a2589fca644a463eb6.jpg",
@@ -13,11 +13,11 @@
     "static/media/S7MUI.png": "/portfolio/static/media/S7MUI.5b2d8a0a309d9f7d47c1.png",
     "static/media/S4JQuery.png": "/portfolio/static/media/S4JQuery.4e57e42ed36ca1fe4999.png",
     "index.html": "/portfolio/index.html",
-    "main.c1c514d6.css.map": "/portfolio/static/css/main.c1c514d6.css.map",
-    "main.67a02f6f.js.map": "/portfolio/static/js/main.67a02f6f.js.map"
+    "main.7e23ca77.css.map": "/portfolio/static/css/main.7e23ca77.css.map",
+    "main.accbe13f.js.map": "/portfolio/static/js/main.accbe13f.js.map"
   },
   "entrypoints": [
-    "static/css/main.c1c514d6.css",
-    "static/js/main.67a02f6f.js"
+    "static/css/main.7e23ca77.css",
+    "static/js/main.accbe13f.js"
   ]
 }
