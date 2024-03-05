@@ -5,7 +5,7 @@
   justify-content: space-evenly;
   align-items: center;
   gap: 2rem;
-  height: 50vh; //50vh 640/2=320/16
+  height: 20rem; //50vh 640/2=320/16
   overflow: hidden;
   border: 0.1rem solid var(--clr);
   border-radius: 1rem;
@@ -16,8 +16,8 @@
 
   .pimg {
     img {
-      height: 17rem;
-      width: 25rem;
+      height: 19rem;
+      width: 28rem;
       object-fit: cover;
       border: 0.05rem solid var(--clr);
       border-radius: 0.5rem;
