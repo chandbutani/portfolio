@@ -46,11 +46,11 @@ const Skills = () => {
       logo: mui,
       label: "MUI",
     },
-    {
-      id: 8,
-      logo: github,
-      label: "GitHub",
-    },
+    // {
+    //   id: 8,
+    //   logo: github,
+    //   label: "GitHub",
+    // },
   ];
   return (
     <>
